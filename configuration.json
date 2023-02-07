@@ -1,44 +1,42 @@
 {
   "app_name": "iosAppSkin",
   "bundle_identifier": {
-    "ios": {
-      "development": "com.poc.mfa.brand"
-    }
+    "ios": "com.poc.mfa.brand"
   },
   "ios-icons": {
-    "iphone-icon-20x20@2x": "Assets.xcassets/AppIcon.appiconset/iPhone-App-iOS_76x76@1x.png",
-    "iphone-icon-20x20@3x": "Assets.xcassets/AppIcon.appiconset/iPhone-App-iOS_76x76@1x.png",
-    "iphone-icon-40x40@2x": "Assets.xcassets/AppIcon.appiconset/iPhone_Spotlight_iOS_80x80@2x.png",
-    "iphone-icon-40x40@3x": "Assets.xcassets/AppIcon.appiconset/iPhone-App-iOS_120x120@3x.png",
-    "iphone-icon-60x60@2x": "Assets.xcassets/AppIcon.appiconset/iPhone-App-iOS_120x120@2x.png",
-    "iphone-icon-60x60@3x": "Assets.xcassets/AppIcon.appiconset/iPhone-App-iOS_180x180@3x.png",
-    "app-store-1024x1024": "Assets.xcassets/AppIcon.appiconset/iPhone_App_iOS_1024x1024@2x.png"
+    "iphone-icon-20x20@2x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-20x20@2x.png",
+    "iphone-icon-20x20@3x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-20x20@3x.png",
+    "iphone-icon-29x29@2x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-29x29@2x.png",
+    "iphone-icon-29x29@3x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-29x29@3x.png",
+    "iphone-icon-40x40@2x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-40x40@2x.png",
+    "iphone-icon-40x40@3x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-40x40@3x.png",
+    "iphone-icon-60x60@2x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-60x60@2x.png",
+    "iphone-icon-60x60@3x": "Assets.xcassets/AppIcon.appiconset/iphone-icon-60x60@3x.png",
+    "app-store-1024x1024": "Assets.xcassets/AppIcon.appiconset/app-store-1024x1024.png"
   },
+  "code_signing": {
+    "apple_id": "nicole.soh@wsa.com",
+    "team_name": "MFA",
+    "team_id": "8422K99N9E",
+    "itc_team_id": "8422K99N9E",
+    "certificate_branch": "main"
+  },
+  "deep_link_url_scheme": "com.poc.mfa.brand",
   "images": [
     {
-      "name": "AppIconInApp",
-      "description": "",
+      "name": "iPhone_App_iOS_1024x1024",
+      "description": "app icon in app",
       "ios": {
         "extension": "png",
-        "light": {
-          "vector": "Assets.xcassets/AppIconInApp.imageset/iPhone_App_iOS_1024x1024@2x.png"
-        },
-        "dark": {
-          "vector": "Assets.xcassets/AppIconInApp.imageset/iPhone_App_iOS_1024x1024@2x.png"
-        }
+        "vector": "Assets.xcassets/AppIconInApp.imageset/iPhone_App_iOS_1024x1024@2x.png"
       }
     },
     {
-      "name": "SigniaHI",
-      "description": "",
+      "name": "VibeMini8@1x",
+      "description": "hi images",
       "ios": {
         "extension": "png",
-        "light": {
-          "vector": "Assets.xcassets/SigniaHI.imageset/ArenaP1@1x.png"
-        },
-        "dark": {
-          "vector": "Assets.xcassets/SigniaHI.imageset/ArenaP1@1x.png"
-        }
+        "vector": "Assets.xcassets/SigniaHI.imageset/ArenaP1@1x.png"
       }
     }
   ]
