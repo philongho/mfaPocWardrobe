@@ -21,6 +21,7 @@
     "itc_team_id": "8422K99N9E",
     "certificate_branch": "main"
   },
+  "deep_link_url_name": "com.poc.mfa.brand",
   "deep_link_url_scheme": "com.poc.mfa.brand",
   "images": [
     {
